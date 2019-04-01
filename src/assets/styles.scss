@@ -1,0 +1,15 @@
+body {
+  position: relative;
+  background: #FAFAFA;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 200px;
+    background: radial-gradient(238.00px at 50% 0%, #89478A 0%, #4A3674 100%);
+  }
+}
